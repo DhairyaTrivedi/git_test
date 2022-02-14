@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimetsu No Yaiba</title>
+    <script></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" href= "resources/logo.png">
+<body>
+    <div class = "backgroundContainer">
+        <video id = "background" muted autoplay loop> 
+            <source src = "resources/KamadoNoUta.mp4" type = "video/mp4"></src>
+        </video>
+
+        <audio id = "backgroundMusic" class = "bgm" src = "resources/homura.mp3" loop></audio>
+    </div>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = "#">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "resources/logo.png">
+                </div>
+                <div class = "logoHakurei">
+                    Demon Slayer
+                </div>
+            </a>
+            <img id = "audioController" src = "resources/audioControllerOn.png" onclick = "audioController(); imageChange();">
+        </div>
+        
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+                <a class = "about hamburgerStuff" href = "#">About</a>
+                <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+                <a class = "characters hamburgerStuff" href = "#">Characters</a>
+                <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+                <a class = "music hamburgerStuff" href = "#">FAQ</a>
+                <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+                <a class = "contact hamburgerStuff" href = "#">Contact</a>
+            </div>
+            <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <div class = "layer1">
+        <div class = "layer1Container">
+            <div class = "layer1Left">
+                <div class = "greetings">
+                    Plot
+                </div>
+                <div class = "description">
+                    A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.
+                </div>
+                <div class = "donateNowContainer">
+                    <a class = "donateNow" href = "https://animixplay.to/v1/kimetsu-no-yaiba-yuukaku-hen/ep11">That's Scary</a>
+                </div>
+            </div>
+            <div class = "layer1Right">
+                <img class = "layer1Image" src = "resources/raymoo.jpg">
+                <div class = "layer1Caption">
+                    Chibi Tanjiro
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    Why not come down to the KnY rabbit hole? We've got...
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "gameContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=a1J7XTNrzHk"><img class = "gameImage" src = "resources/touhouLunaNights.jpg"></a>
+                        <div class = "gameSubtext">Annoying Zenitsu</div>
+                    </div>
+                    <div class = "fanartContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=1Wb7-Wn-JiE"><img class = "fanartImage" src ="resources/cute_neuko.jpg"></a>
+                        <div class = "fanartSubtext">Kawaii Nezuko</div>
+                    </div>
+                    <div class = "musicContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=rsWe1Li3iqw"><img class = "musicVideo" src = "resources/boarsuke.jpg" muted autoplay loop><img/></a>
+                        <div class = "musicSubtext">Boarsuke</div>
+                    </div>
+                    <div class = "heyMisterContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=G0V-EowANQ4"><img class = "heyMisterImage" src = "resources/tomioka.jpg"></a>
+                        <div class = "heyMisterSubtext">Cool Sensei</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=XYCZzHWa9zY"><img class = "fumoImage" src = "resources/sakuga.jpg"></a>
+                        <div class = "fumoSubtext">and most importantly, Sakuga!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer3">
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                “All I Can Do Is Work Hard! That's The Story Of My Life!”
+            </div>
+            <div class = "layer3QuoteFrom">
+                -Tanjiro Kamado
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer4">
+        <div class = "layer4Bg">
+            <div class = "layer4Content">
+                <div class = "layer4Text">
+                    <div class = "layer4TextHeading">
+                        Is there something strange? (In the neighborhood, perhaps?)
+                    </div>
+                    <div class = "layer4TextSubtext">
+                        Then it might be a demon!
+                         Get in touch with the slayers now for its extermination! Guaranteed!
+                    </div>
+                </div>
+                <div class = "layer4ContactContainer">
+                    <a class = "layer4Contact" href = "#">
+                        Contact!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "https://github.com/DhairyaTrivedi/git_test" target = "_blank">
+                Webpage by: Dhairya
+            </a>
+        </div>
+    </div>
+</body>
+</html>
